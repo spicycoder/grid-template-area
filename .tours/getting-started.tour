@@ -1,0 +1,51 @@
+{
+  "title": "Getting Started",
+  "steps": [
+    {
+      "file": "index.html",
+      "line": 10,
+      "description": "# Basic HTML \r\n\r\n> Create simple HTML Layout\r\n\r\n---",
+      "selection": {
+        "start": {
+          "line": 10,
+          "character": 1
+        },
+        "end": {
+          "line": 14,
+          "character": 24
+        }
+      }
+    },
+    {
+      "file": "less\\style.less",
+      "line": 10,
+      "description": "# Create Styles\r\n\r\n> Add `grid-template-areas` in `less` file\r\n\r\n---\r\n"
+    },
+    {
+      "file": "gulpfile.js",
+      "line": 6,
+      "description": "# Gulp Task\r\n\r\n> Add `gulp` task to generate `css` files from `less` files\r\n\r\n---\r\n"
+    },
+    {
+      "file": "index.html",
+      "line": 7,
+      "description": "# Link style.css\r\n\r\n> Link the `css` file in html\r\n\r\n---\r\n",
+      "selection": {
+        "start": {
+          "line": 10,
+          "character": 1
+        },
+        "end": {
+          "line": 14,
+          "character": 24
+        }
+      }
+    },
+    {
+      "file": "package.json",
+      "line": 7,
+      "description": "# Generate CSS\r\n\r\n> Add an `npm` script for gulp task\r\n\r\n> [npm run gulp](command:codetour._sendTextToTerminal?%5B%22npm%20run%20gulp%22%5D \"Run \\\"npm run gulp\\\" in a terminal\")\r\n\r\n---\r\n"
+    }
+  ],
+  "ref": "gh-pages"
+}
